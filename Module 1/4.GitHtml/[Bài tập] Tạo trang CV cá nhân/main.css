@@ -1,19 +1,112 @@
-/*body{
-	color: #1bbf27;
-}*/
+body{
+	background: #ccc;
+
+}
 .container{
-	background: #fff;
+	width: 100%;
 	display: flex;
-	justify-content: space-evenly;
+    justify-content: center;
+	align-items: center;
+
+}
+.cv_person{
+	width: 70%;
+	display: flex;
+}
+.main_left{
+	width: 30%;
+    background: linear-gradient(#31e510, #6db56f);
+    height: 700px;
+    min-height: 900px;
+}
+.main_right{
+	width: 70%;
+	background: #fff;
+	min-height: 900px;
 }
 .img{
-	width: 25%;
-	background: #1bbf27;
+	width: 100%;
+	margin-top: 30px;
 }
-.content{
-	width: 75%;
-	background: #ccc;
+.img_kaido{
+	border-radius: 74px;
+	position: relative;
+	top: -25px;
+	left: 19%;
 }
-.header_ele{
-	margin-left: 15px;
+.inf{
+	font-size: 25px;
+	margin-top: 0px;
+	text-align: center;
+	color: #fff;
+}
+.fa-user-tie{
+    position: relative;
+	top: -3px;
+	left: 0;
+}
+.fa-graduation-cap{
+    position: relative;
+	top: 1px;
+	left: 0;
+}
+.inf_addres{
+	margin-left: 5px;
+	font-size: 15px;
+	margin-top: 10px;
+	text-align: center;
+	color: #fff;
+	line-height: 20px;
+}
+.font-size{
+	font-size: 20px;
+}
+.inf_skill{
+	font-size: 25px;
+	margin-top: 15px;
+	text-align: center;
+	color: #fff;
+	margin-left: -40px;
+}
+.my_skill_item{
+	margin-top: 11px;
+	margin-left: 21px;
+	font-size: 20px;
+	color: #fff;
+}
+.fa-star{
+	margin-top: 5px;
+}
+.name{
+	font-size: 50px;
+	color: 	green;
+	margin-top: 10px;
+	margin-left: 30px;
+}
+.name_education{
+	margin-left: 30px;
+	font-size: 20px;
+	margin-top: 10px;
+}
+.decoration{
+    margin-top: 10px;
+    border-bottom: 3px solid #4b954b;
+    width: 92%;
+    text-align: center;
+    position: relative;
+    top: 0;
+    left: 30px;
+}
+.target{
+	font-size: 20px;
+	color: green;
+	margin-top: 10px;
+	margin-left: 27px;
+}
+.content_target{
+	font-size: 18px;
+    margin-right: 10px;
+	margin-top: 10px;
+	margin-left: 27px;
+	line-height: 20px;
 }
