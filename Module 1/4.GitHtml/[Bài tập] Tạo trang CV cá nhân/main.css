@@ -1,0 +1,19 @@
+/*body{
+	color: #1bbf27;
+}*/
+.container{
+	background: #fff;
+	display: flex;
+	justify-content: space-evenly;
+}
+.img{
+	width: 25%;
+	background: #1bbf27;
+}
+.content{
+	width: 75%;
+	background: #ccc;
+}
+.header_ele{
+	margin-left: 15px;
+}
