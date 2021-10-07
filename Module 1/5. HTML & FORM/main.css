@@ -1,0 +1,86 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #333;
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  background: #f1f1f1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+/*-------------------------------*/
+form {
+  user-select: none;
+  width: 27%;
+  background: #fff;
+  margin-top:70px;
+  border-radius: 10px;
+  height: 550px;
+  background: linear-gradient(0.25turn, #3f87a6, #ebf8e1, #f69d3c);
+  
+}
+.heading {
+  font-size: 2rem;
+  color: black;
+  text-align: center;
+  margin-top: 40px;
+}
+.quote {
+  font-size: 1.5rem;
+  color: #636d77;;
+  text-align: center;
+  margin-top: 15px;
+}
+/*------------------------------------------------------------*/
+/*đưa 3 thẻ vô rồi flex rồi flex theo cột dọt rồi margin sau*/
+.form_group {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-left: 44px;
+}
+/*đưa 3 thẻ vô rồi flex rồi flex theo cột dọt rồi margin sau*/
+/*------------------------------------------------------------*/
+label {
+  font-size: 1.3rem;
+  font-weight: 600;
+  text-align: left;
+}
+input {
+  width: 90%;
+  height: 37px;
+  outline: none;
+  padding: 5px;
+  font-size: 1.5rem;
+  border: 1px solid #b3b3b3;
+  border-radius: 6px;
+}
+.form_submit_btn {
+    width: 90%;
+    height: 37px;
+    color: #fff;
+    background: #00b9ff;
+    border-radius: 10px;
+    font-size: 1.7rem;
+    outline: none;
+    cursor: pointer;
+    border: none;
+    margin-top: 16px;
+}
+.form_submit_btn:hover {
+   filter: brightness(80%);
+}
+.form-message {
+  font-size: 1.2rem;
+  line-height: 1.6rem;
+  padding: 4px 0 0;
+}
+input:hover {
+  border-color: #00b9ff;
+}
