@@ -9,13 +9,16 @@ html {
   font-family: "Open Sans", sans-serif;
   user-select: none;
 }
-.container {
+.main {
   background: #f1f1f1;
   min-height: 100vh;
+}
+/*-------------------------------*/
+.container {
+  background: #f1f1f1;
   display: flex;
   justify-content: center;
 }
-/*-------------------------------*/
 li {
     list-style-type: none;
     margin-right: 28px;
@@ -135,11 +138,15 @@ a {
   justify-content: flex-start;
   border-radius: 5px;
   display: none;
+  background: #fff;
 }
 .form_login, .form_register {
   height: 32px;
   text-align: center;
-  padding-top: 8px;
+  padding-top: 9px;
+}
+.form_register {
+  padding-top: 7px;
 }
 .form_login a, .form_register a  {
   height: 34px;
@@ -147,7 +154,7 @@ a {
   color: #474747;
 }
 .devision {
-  border-bottom: 1px solid #474747;
+  border-bottom: 1px solid #3BA66B;
   position: relative;
   top: 0;
 }
@@ -166,23 +173,24 @@ a {
   left: 97px;
 }
 .form::before {
-    content: '';
-    width: 128px;
-    height: 16px;
-    /*background: #fff;*/
-    display: block;
-    position: absolute;
-    bottom: 58px;
-    right: 0px;
+  content: '';
+  width: 128px;
+  height: 16px;
+  /*background: #fff;*/
+  display: block;
+  position: absolute;
+  bottom: 58px;
+  right: 0px;
 }
 /*dùng after rồi nên cái sau bắt buộc dung after*/
 /*hai đoạn css này để tạo hình tam giác và tạo cầu nối*/  
-  .positon_for_show_form:hover .form{
+.positon_for_show_form:hover .form{
     display: block;
   }
-
-
-
+.logo_content {
+  height: 444px;
+  background-image: url("logo_content.png");
+}
 
 
 

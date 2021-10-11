@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #333;
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+  user-select: none;
+}
+.container {
+  background: #f1f1f1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+/*-------------------------------*/
+.cal {
+  background: #3BA66B;
+  margin-top: 10px;
+  height: 420px;
+}
+.show_value {
+  padding: 10px;
+  margin: 10px;
+  text-align: right;
+  outline: none;
+  user-select: none;
+  border: 1px solid #ccc;
+  padding: 10px;
+  line-height: 10px;
+  height: 44px;
+  font-size: 1.6rem ;
+}
+.group_btn_item {
+  width: 40px;
+  height: 40px;
+  /*border: 1px solid #ccc;*/
+  border-radius: 5px;
+}
+.group_btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 9px;
+}
+.group_btn_6 {
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 17px;
+
+}
+.group_btn_6 .group_btn_item_3 {
+ width: 96px;
+}
+.group_btn_item_1_1 {
+ margin-right: 14px;
+}
+.group_btn_item_1_2 {
+ margin-right: 12px;
+}
+.group_btn_1 .group_btn_item_3,
+.group_btn_1 .group_btn_item_4 {
+  background: #D34131;
+  color: #fff;
+}
+.group_btn_item_1_his {
+height: 40px;
+width: 202px;
+background: blue;
+color: #fff;
+}
+.group_btn_7 {
+ display: flex;
+ justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
