@@ -1,0 +1,217 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #333;
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+  user-select: none;
+}
+.container {
+  background: #f1f1f1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+/*-------------------------------*/
+li {
+    list-style-type: none;
+    margin-right: 28px;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+.header {
+  width: 100%;
+  height: 117px;
+  background: #3BA66B;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header_menu {
+  display: flex;
+  justify-content: space-between;
+}
+.header_menu_left {
+  display: flex;
+  font-size: 1.4rem;
+  font-weight:lighter;
+  width: 522px; 
+  align-items: center;
+}
+.header_menu_center {
+  background: #3BA66B;
+}
+.header_menu_right {
+  width: 522px;
+}
+#main {
+  color: #FFB34D;
+}
+.header_menu_left .header_menu_left_item a:hover {
+ color: #FFB34D;
+}
+.input_search {
+  height: 45px;
+  width: 234px;
+  border-radius: 82px;
+  border: 1px solid #419782;
+  padding: 24px;
+  outline: none;
+  font-size: 1.4rem;
+  background: #e8eff3;
+}
+.positon_for_input_search {
+  position: relative;
+}
+.fa-search {
+  position: absolute;
+  top: -15px;
+  right: 2px;
+  background: #FFB416;
+  width: 46px;
+  height: 46px;
+  border-radius: 90px;;
+}
+.fa-search:before {
+  position: absolute;
+  top: 11px;
+  right: 9px;
+}
+.header_menu_right {
+  display: flex;
+  align-items: center;
+}
+.header_menu_right_list {
+  justify-content: flex-end;
+}
+.far, .fas {
+  font-size: 24px;
+  padding-left: 5px;
+}
+
+.fa-heart:hover, .fa-shopping-bag:hover
+, .fa-user-circle:hover {
+ color: #FFB158;
+}
+.header_menu_right_list li {
+  margin-right: 16px;
+}
+.fa-search:hover
+{
+  background: #3BA66B;
+  color: #fff;
+}
+.positon_for_show_qty {
+  position: relative;
+}
+.show_qty {
+  width: 15px;
+  height: 16px;
+  background: #FFB158;
+  border-radius: 10px;
+  position: absolute;
+  bottom: 56%;
+  left: 100%;
+  text-align: center;
+}
+.positon_for_show_form {
+  position: relative;
+}
+.form {
+  width: 128px;
+  height: 62px;
+  background: #fff;
+  position: absolute;
+  top: 156%;
+  right: -18%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  border-radius: 5px;
+  display: none;
+}
+.form_login, .form_register {
+  height: 32px;
+  text-align: center;
+  padding-top: 8px;
+}
+.form_login a, .form_register a  {
+  height: 34px;
+  width: 100%;
+  color: #474747;
+}
+.devision {
+  border-bottom: 1px solid #474747;
+  position: relative;
+  top: 0;
+}
+.form_login a:hover, 
+.form_register a:hover  {
+  color: #ffb416;
+}
+/*hai đoạn css này để tạo hình tam giác và tạo cầu nối*/
+.form::after {
+  content: '';
+  border-left: 14px solid transparent;
+  border-right: 14px solid transparent;
+  border-bottom: 14px solid #fff;
+  position: absolute;
+  bottom: 57px;
+  left: 97px;
+}
+.form::before {
+    content: '';
+    width: 128px;
+    height: 16px;
+    /*background: #fff;*/
+    display: block;
+    position: absolute;
+    bottom: 58px;
+    right: 0px;
+}
+/*dùng after rồi nên cái sau bắt buộc dung after*/
+/*hai đoạn css này để tạo hình tam giác và tạo cầu nối*/  
+  .positon_for_show_form:hover .form{
+    display: block;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
