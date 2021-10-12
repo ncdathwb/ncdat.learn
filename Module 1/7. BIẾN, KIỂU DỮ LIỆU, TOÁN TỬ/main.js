@@ -50,8 +50,9 @@ function add_del(){
 }
 function add_ca(){
   var data = document.getElementById("show_value").value;
-  document.getElementById("show_value").value = '0';
+  document.getElementById("show_value").value = '';
 }
+/*---------*/ //chưa tính toán 2 cái này
 function add_exponentiation(){
   var data = document.getElementById("show_value").value;
   data += '²';
@@ -62,6 +63,7 @@ var data = document.getElementById("show_value").value;
 data += '√';
 document.getElementById("show_value").value = data;	
 }
+/*---------*/
 function add_remainder(){
 var data = document.getElementById("show_value").value;
 data += '%';
@@ -74,7 +76,7 @@ document.getElementById("show_value").value = data;
 }
 function add_multip(){
 var data = document.getElementById("show_value").value;
-data += 'x';
+data += '*';
 document.getElementById("show_value").value = data;	
 }
 function add_sub(){
@@ -96,7 +98,9 @@ function add_result(){
 	var data = document.getElementById("show_value").value;
 	localStorage.setItem("history", data);
 	//lưu lại vào his
-	
+	var result = eval(data);
+	console.log(result);	
+	document.getElementById("show_value").value = result;	
 
 }
 
