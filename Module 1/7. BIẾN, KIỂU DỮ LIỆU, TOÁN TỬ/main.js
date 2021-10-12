@@ -96,6 +96,7 @@ function add_result(){
 	var data = document.getElementById("show_value").value;
 	localStorage.setItem("history", data);
 	//lưu lại vào his
+	
 
 }
 

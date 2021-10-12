@@ -1,0 +1,87 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #333;
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+  user-select: none;
+}
+.container {
+  background: #f1f1f1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-size: 1.5rem;
+}
+/*-------------------------------*/
+#background {
+  width: 500px;
+  height: 250px;
+}
+.changeColer_item {
+  width: 500px;
+  height: 20px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+input {
+  width: 80%;
+}
+#red {
+  color: red;
+}
+#green {
+  color: green;
+}
+#blue {
+  color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

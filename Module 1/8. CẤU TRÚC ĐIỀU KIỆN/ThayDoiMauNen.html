@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Thay đổi màu nền</title>
+	<!-- <script type="text/javascript" src="main.js" ></script> -->
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+<div class="container">
+	<div id="background" style="background-color:rgb(255, 99, 71);"></div>
+
+		<div class="changeColor">
+				<div class="changeColer_item changeColer_item_1">
+					<p id="red">RED</p>
+			       <input type="range" min="0" max="255" value="100" oninput="redSliderOnChange()" id="myRange_1">
+			       
+	           </div>
+                 <p id="msg_red">255</p>
+				<div class="changeColer_item changeColer_item_2">
+					<p  id="green">GREEN</p>
+				    <input type="range" min="0" max="255" value="60" oninput="redSliderOnChange()" id="myRange_2">
+				</div>
+                 <p id="msg_green">99</p>
+				<div class="changeColer_item changeColer_item_3">
+					<p  id="blue">BLUE</p>
+				    <input type="range" min="0" max="255" value="220" oninput="redSliderOnChange()" id="myRange_3">
+				</div>
+				<p id="msg_blue">71</p>
+		</div>
+</div>
+	<script type="text/javascript" src="main.js" ></script>
+</body>
+</html>
