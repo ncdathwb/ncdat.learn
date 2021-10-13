@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #333;
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  background: #f1f1f1;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/*---------------------------------------------------*/
+.img {
+  width: 600px;
+  height: 150px;
+}
+.img + .img {
+  margin-top: 20px;
+}
+img {
+  width: 596px;
+  height: 146px;
+}

@@ -1,0 +1,47 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #333;
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  text-align: center;
+  font-size: 1.6rem;
+  user-select: none;
+  color: #d34131;
+  position: relative;
+  font-weight: 600;
+}
+button {
+  padding: 5px;
+  color: #fff;
+  background: black;
+  outline: none;
+  border: 1px solid black; 
+  border-radius: 10px;
+  width: 50px;
+  height: 25px;
+  margin-top: 20px;
+}
+button:hover{
+  cursor: pointer;
+}
+#yes_btn:hover {
+ background: #fff;
+ color: black ;
+}
+
+#no_btn {
+  position: absolute;
+  top: 18px;
+  right: 636px;
+}
+#yes_btn {
+  position: absolute;
+  top: 18px;
+  right: 692px;
+}
