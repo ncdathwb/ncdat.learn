@@ -190,6 +190,11 @@ a {
 .logo_content {
   height: 444px;
   background-image: url("logo_content.png");
+
+}
+.img_bottom_header {
+  height: 42px;
+  background: #ffffff url("img_bottom_header.png") no-repeat center top;
 }
 
 
