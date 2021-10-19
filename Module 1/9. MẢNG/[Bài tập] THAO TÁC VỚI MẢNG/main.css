@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  color: #333;
+  font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+}
+#gr {
+  display: flex;
+
+}
+input {
+  margin-right: 10px;
+  padding: 6px;
+}
+input[type="text"]{
+  outline: none;
+}
+#div {
+  width: 40%;
+  height: 2px;
+  background: #ccc;
+  margin-top: 10px;
+}
+#content_text {
+  margin-bottom: 10px;
+}
+#result {
+  margin-top: 10px;
+}
+#result_2 {
+  margin-top: 10px;
+}
+.gr_2 {
+  display: flex;
+}
+

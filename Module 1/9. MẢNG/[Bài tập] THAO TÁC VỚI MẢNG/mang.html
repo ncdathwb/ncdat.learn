@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>New File</title>
+	<link rel="stylesheet" href="main.css" />
+</head>
+<body>
+	<div class="container1">
+	 <p id="content_text">Nhập và hiện thị dữ liệu</p>
+	 <label for="input_add"></label>
+	 <div id="gr">
+			 <input type="text" name="input_add" id="input_add">
+		     <input type="button" class="btn-gr" value="ADD" onclick="add()">
+		     <input type="button" class="btn-gr" value="DISPLAY" onclick="display()">
+		     <input type="button" class="btn-gr" value="REVERSE" onclick="reverse()">
+		     <input type="button" class="btn-gr" value="FIND" onclick="find()">
+		     <input type="button" class="btn-gr" value="MAX" onclick="find_max()">
+	 </div>
+	 <div id="div"></div>
+	 <p id="result"></p>
+	 <!--  -->
+	 <div class="container2">
+
+		 <div id="gr_2">
+			<p>var arrColor = ["Red", "Green", "White", "Black"];</p>
+			<input type="button" class="btn-gr" value="SHOW" onclick="clickShowColor()">
+			<p id="result_2"></p>
+			<div id="div"></div>
+		 </div>
+
+		 <div class="gr_3">
+		 	<input type="text"  id="input_string">
+            <input type="button" class="btn-gr" value="REVERSE_TEXT" id="data" onclick="reverseText()">
+            <p id="result_reverse_string"></p>
+		 </div>
+
+		 <div class="gr_4">
+		 	<input type="text"  id="input_string_number">
+            <input type="button" class="btn-gr" value="CHARAC" id="data" onclick="addCharac()">
+            <p id="result_charac"></p>
+		 </div>
+
+		 <div class="gr_tudien">
+		 	<input type="text"  id="nguoiDungNhap">
+            <input type="button" class="btn-gr" value="TRA CỨU" id="data" onclick="kiemtra()">
+            <p id="ketQuaTraCuu"></p>
+		 </div>
+
+
+	 </div>
+    
+<script type="text/javascript" src="main.js" ></script>
+</body>
+</html>
